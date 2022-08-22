@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\andres.calderon\\Desktop\\StajProjesi\\DotNetCore\\Demo\\KariyerNet.CookieManager\\src\\KariyerNet.CookieManager.Data.Entity\\KariyerNet.CookieManager.Data.Entity\\KariyerNet.CookieManager.Data.Entity.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\andres.calderon\\Desktop\\StajProjesi\\DotNetCore\\Demo\\KariyerNet.CookieManager\\src\\KariyerNet.CookieManager.Common\\KariyerNet.CookieManager.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andres.calderon\\Desktop\\StajProjesi\\DotNetCore\\Demo\\KariyerNet.CookieManager\\src\\KariyerNet.CookieManager.Common\\KariyerNet.CookieManager.Common.csproj",
+        "projectName": "KariyerNet.CookieManager.Common",
+        "projectPath": "C:\\Users\\andres.calderon\\Desktop\\StajProjesi\\DotNetCore\\Demo\\KariyerNet.CookieManager\\src\\KariyerNet.CookieManager.Common\\KariyerNet.CookieManager.Common.csproj",
+        "packagesPath": "C:\\Users\\andres.calderon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andres.calderon\\Desktop\\StajProjesi\\DotNetCore\\Demo\\KariyerNet.CookieManager\\src\\KariyerNet.CookieManager.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andres.calderon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\andres.calderon\\Desktop\\StajProjesi\\DotNetCore\\Demo\\KariyerNet.CookieManager\\src\\KariyerNet.CookieManager.Data.Entity\\KariyerNet.CookieManager.Data.Entity\\KariyerNet.CookieManager.Data.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andres.calderon\\Desktop\\StajProjesi\\DotNetCore\\Demo\\KariyerNet.CookieManager\\src\\KariyerNet.CookieManager.Data.Entity\\KariyerNet.CookieManager.Data.Entity\\KariyerNet.CookieManager.Data.Entity.csproj",
+        "projectName": "KariyerNet.CookieManager.Data.Entity",
+        "projectPath": "C:\\Users\\andres.calderon\\Desktop\\StajProjesi\\DotNetCore\\Demo\\KariyerNet.CookieManager\\src\\KariyerNet.CookieManager.Data.Entity\\KariyerNet.CookieManager.Data.Entity\\KariyerNet.CookieManager.Data.Entity.csproj",
+        "packagesPath": "C:\\Users\\andres.calderon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andres.calderon\\Desktop\\StajProjesi\\DotNetCore\\Demo\\KariyerNet.CookieManager\\src\\KariyerNet.CookieManager.Data.Entity\\KariyerNet.CookieManager.Data.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andres.calderon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\andres.calderon\\Desktop\\StajProjesi\\DotNetCore\\Demo\\KariyerNet.CookieManager\\src\\KariyerNet.CookieManager.Common\\KariyerNet.CookieManager.Common.csproj": {
+                "projectPath": "C:\\Users\\andres.calderon\\Desktop\\StajProjesi\\DotNetCore\\Demo\\KariyerNet.CookieManager\\src\\KariyerNet.CookieManager.Common\\KariyerNet.CookieManager.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

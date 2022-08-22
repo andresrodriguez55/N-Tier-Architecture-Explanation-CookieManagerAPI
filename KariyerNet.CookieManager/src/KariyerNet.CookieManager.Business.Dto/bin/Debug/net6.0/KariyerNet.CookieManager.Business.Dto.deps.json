@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "KariyerNet.CookieManager.Business.Dto/1.0.0": {
+        "runtime": {
+          "KariyerNet.CookieManager.Business.Dto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KariyerNet.CookieManager.Business.Dto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Common\bin\Debug\net6.0\KariyerNet.CookieManager.Common.deps.json
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Common\bin\Debug\net6.0\KariyerNet.CookieManager.Common.dll
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Common\bin\Debug\net6.0\KariyerNet.CookieManager.Common.pdb
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Common\obj\Debug\net6.0\KariyerNet.CookieManager.Common.csproj.AssemblyReference.cache
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Common\obj\Debug\net6.0\KariyerNet.CookieManager.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Common\obj\Debug\net6.0\KariyerNet.CookieManager.Common.AssemblyInfoInputs.cache
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Common\obj\Debug\net6.0\KariyerNet.CookieManager.Common.AssemblyInfo.cs
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Common\obj\Debug\net6.0\KariyerNet.CookieManager.Common.csproj.CoreCompileInputs.cache
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Common\obj\Debug\net6.0\KariyerNet.CookieManager.Common.dll
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Common\obj\Debug\net6.0\refint\KariyerNet.CookieManager.Common.dll
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Common\obj\Debug\net6.0\KariyerNet.CookieManager.Common.pdb
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Common\obj\Debug\net6.0\ref\KariyerNet.CookieManager.Common.dll

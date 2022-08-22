@@ -1,0 +1,12 @@
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Business.Dto\bin\Debug\net6.0\KariyerNet.CookieManager.Business.Dto.deps.json
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Business.Dto\bin\Debug\net6.0\KariyerNet.CookieManager.Business.Dto.dll
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Business.Dto\bin\Debug\net6.0\KariyerNet.CookieManager.Business.Dto.pdb
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Business.Dto\obj\Debug\net6.0\KariyerNet.CookieManager.Business.Dto.csproj.AssemblyReference.cache
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Business.Dto\obj\Debug\net6.0\KariyerNet.CookieManager.Business.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Business.Dto\obj\Debug\net6.0\KariyerNet.CookieManager.Business.Dto.AssemblyInfoInputs.cache
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Business.Dto\obj\Debug\net6.0\KariyerNet.CookieManager.Business.Dto.AssemblyInfo.cs
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Business.Dto\obj\Debug\net6.0\KariyerNet.CookieManager.Business.Dto.csproj.CoreCompileInputs.cache
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Business.Dto\obj\Debug\net6.0\KariyerNet.CookieManager.Business.Dto.dll
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Business.Dto\obj\Debug\net6.0\refint\KariyerNet.CookieManager.Business.Dto.dll
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Business.Dto\obj\Debug\net6.0\KariyerNet.CookieManager.Business.Dto.pdb
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Business.Dto\obj\Debug\net6.0\ref\KariyerNet.CookieManager.Business.Dto.dll

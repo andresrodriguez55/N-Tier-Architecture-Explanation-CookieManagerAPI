@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitTests", "NUnitTests\NUnitTests.csproj", "{591EECD8-A088-48C7-9F22-3A8C132E65EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{DFEA92F0-DFC6-43C0-9916-4033CAD631C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KariyerNet.CookieManager.Data.Entity", "KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data.Entity\KariyerNet.CookieManager.Data.Entity\KariyerNet.CookieManager.Data.Entity.csproj", "{5BD109E1-97AF-4BEA-B6BA-79AFD1E38538}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KariyerNet.CookieManager.Data", "KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data\KariyerNet.CookieManager.Data.csproj", "{526A8660-11C6-4924-8619-EF6BC75FB8F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{38F3BE8D-4BBE-495B-98F1-235F4681C629}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KariyerNet.CookieManager.Common", "KariyerNet.CookieManager\src\KariyerNet.CookieManager.Common\KariyerNet.CookieManager.Common.csproj", "{C6105AB2-D768-4D6A-BA82-80530A47D658}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{B99AC3D4-FAEC-42FB-8BC6-A8AEFC0AECB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KariyerNet.CookieManager.Business.Contract", "KariyerNet.CookieManager\src\KariyerNet.CookieManager.Business.Contract\KariyerNet.CookieManager.Business.Contract.csproj", "{E5889E21-7B63-4334-BBF7-3B65A163EE63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KariyerNet.CookieManager.Data.Contract", "KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data.Contract\KariyerNet.CookieManager.Data.Contract.csproj", "{CBF864C6-F21C-4D2F-B8E5-7B18EC64FC21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KariyerNet.CookieManager.Business", "KariyerNet.CookieManager\src\KariyerNet.CookieManager.Business\KariyerNet.CookieManager.Business.csproj", "{5C13B09F-77D0-4A78-81D6-38D1E88F6660}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{871FB07A-01D9-4B1A-8B0C-108233EA9ADF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KariyerNet.CookieManagerApi", "KariyerNet.CookieManager\src\KariyerNet.CookieManagerApi\KariyerNet.CookieManagerApi.csproj", "{93E2179D-D5EB-47BD-A911-18973FB01A31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KariyerNet.CookieManager.Business.Dto", "KariyerNet.CookieManager\src\KariyerNet.CookieManager.Business.Dto\KariyerNet.CookieManager.Business.Dto.csproj", "{A6869E78-792F-42D0-9281-A01F89FA8CB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30409BCD-3191-4FDB-9569-C434126AEF11}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{591EECD8-A088-48C7-9F22-3A8C132E65EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591EECD8-A088-48C7-9F22-3A8C132E65EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591EECD8-A088-48C7-9F22-3A8C132E65EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591EECD8-A088-48C7-9F22-3A8C132E65EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD109E1-97AF-4BEA-B6BA-79AFD1E38538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD109E1-97AF-4BEA-B6BA-79AFD1E38538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD109E1-97AF-4BEA-B6BA-79AFD1E38538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD109E1-97AF-4BEA-B6BA-79AFD1E38538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{526A8660-11C6-4924-8619-EF6BC75FB8F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526A8660-11C6-4924-8619-EF6BC75FB8F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526A8660-11C6-4924-8619-EF6BC75FB8F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526A8660-11C6-4924-8619-EF6BC75FB8F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6105AB2-D768-4D6A-BA82-80530A47D658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6105AB2-D768-4D6A-BA82-80530A47D658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6105AB2-D768-4D6A-BA82-80530A47D658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6105AB2-D768-4D6A-BA82-80530A47D658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5889E21-7B63-4334-BBF7-3B65A163EE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5889E21-7B63-4334-BBF7-3B65A163EE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5889E21-7B63-4334-BBF7-3B65A163EE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5889E21-7B63-4334-BBF7-3B65A163EE63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF864C6-F21C-4D2F-B8E5-7B18EC64FC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF864C6-F21C-4D2F-B8E5-7B18EC64FC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF864C6-F21C-4D2F-B8E5-7B18EC64FC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF864C6-F21C-4D2F-B8E5-7B18EC64FC21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C13B09F-77D0-4A78-81D6-38D1E88F6660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C13B09F-77D0-4A78-81D6-38D1E88F6660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C13B09F-77D0-4A78-81D6-38D1E88F6660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C13B09F-77D0-4A78-81D6-38D1E88F6660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E2179D-D5EB-47BD-A911-18973FB01A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E2179D-D5EB-47BD-A911-18973FB01A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E2179D-D5EB-47BD-A911-18973FB01A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E2179D-D5EB-47BD-A911-18973FB01A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6869E78-792F-42D0-9281-A01F89FA8CB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6869E78-792F-42D0-9281-A01F89FA8CB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6869E78-792F-42D0-9281-A01F89FA8CB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6869E78-792F-42D0-9281-A01F89FA8CB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5BD109E1-97AF-4BEA-B6BA-79AFD1E38538} = {DFEA92F0-DFC6-43C0-9916-4033CAD631C7}
+		{526A8660-11C6-4924-8619-EF6BC75FB8F1} = {DFEA92F0-DFC6-43C0-9916-4033CAD631C7}
+		{C6105AB2-D768-4D6A-BA82-80530A47D658} = {38F3BE8D-4BBE-495B-98F1-235F4681C629}
+		{E5889E21-7B63-4334-BBF7-3B65A163EE63} = {B99AC3D4-FAEC-42FB-8BC6-A8AEFC0AECB8}
+		{CBF864C6-F21C-4D2F-B8E5-7B18EC64FC21} = {DFEA92F0-DFC6-43C0-9916-4033CAD631C7}
+		{5C13B09F-77D0-4A78-81D6-38D1E88F6660} = {B99AC3D4-FAEC-42FB-8BC6-A8AEFC0AECB8}
+		{93E2179D-D5EB-47BD-A911-18973FB01A31} = {871FB07A-01D9-4B1A-8B0C-108233EA9ADF}
+		{A6869E78-792F-42D0-9281-A01F89FA8CB9} = {B99AC3D4-FAEC-42FB-8BC6-A8AEFC0AECB8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8057220-F5F3-4EB8-A3B8-196EE8606298}
+	EndGlobalSection
+EndGlobal

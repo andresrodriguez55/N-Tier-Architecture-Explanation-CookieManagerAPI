@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KariyerNet.CookieManager.Common\KariyerNet.CookieManager.Common.csproj" />
+    <ProjectReference Include="..\KariyerNet.CookieManager.Data.Contract\KariyerNet.CookieManager.Data.Contract.csproj" />
+    <ProjectReference Include="..\KariyerNet.CookieManager.Data.Entity\KariyerNet.CookieManager.Data.Entity\KariyerNet.CookieManager.Data.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

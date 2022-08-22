@@ -1,0 +1,17 @@
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data.Contract\bin\Debug\net6.0\KariyerNet.CookieManager.Data.Contract.deps.json
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data.Contract\bin\Debug\net6.0\KariyerNet.CookieManager.Data.Contract.dll
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data.Contract\bin\Debug\net6.0\KariyerNet.CookieManager.Data.Contract.pdb
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data.Contract\bin\Debug\net6.0\KariyerNet.CookieManager.Data.Entity.dll
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data.Contract\bin\Debug\net6.0\KariyerNet.CookieManager.Data.Entity.pdb
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data.Contract\obj\Debug\net6.0\KariyerNet.CookieManager.Data.Contract.csproj.AssemblyReference.cache
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data.Contract\obj\Debug\net6.0\KariyerNet.CookieManager.Data.Contract.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data.Contract\obj\Debug\net6.0\KariyerNet.CookieManager.Data.Contract.AssemblyInfoInputs.cache
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data.Contract\obj\Debug\net6.0\KariyerNet.CookieManager.Data.Contract.AssemblyInfo.cs
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data.Contract\obj\Debug\net6.0\KariyerNet.CookieManager.Data.Contract.csproj.CoreCompileInputs.cache
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data.Contract\obj\Debug\net6.0\KariyerNet.CookieManager.Data.Contract.csproj.CopyComplete
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data.Contract\obj\Debug\net6.0\KariyerNet.CookieManager.Data.Contract.dll
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data.Contract\obj\Debug\net6.0\refint\KariyerNet.CookieManager.Data.Contract.dll
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data.Contract\obj\Debug\net6.0\KariyerNet.CookieManager.Data.Contract.pdb
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data.Contract\obj\Debug\net6.0\ref\KariyerNet.CookieManager.Data.Contract.dll
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data.Contract\bin\Debug\net6.0\KariyerNet.CookieManager.Common.dll
+C:\Users\andres.calderon\Desktop\StajProjesi\DotNetCore\Demo\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data.Contract\bin\Debug\net6.0\KariyerNet.CookieManager.Common.pdb
