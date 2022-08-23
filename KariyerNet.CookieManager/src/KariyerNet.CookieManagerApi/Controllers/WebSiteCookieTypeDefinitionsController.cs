@@ -23,27 +23,21 @@ namespace KariyerNet.CookieManagerApi.Controllers
         }
 
         [HttpPost()]
-        public ActionResult CreateWebSiteCookieTypeDefinition([FromBody] WebSiteCookieTypeDefinitionCreateRequestDto definition)
+        public bool CreateWebSiteCookieTypeDefinition([FromBody] WebSiteCookieTypeDefinitionCreateRequestDto definition)
         {
-            if (_engine.CreateWebSiteCookieTypeDefinition(definition))
-                return Ok();
-            return BadRequest();
+            return _engine.CreateWebSiteCookieTypeDefinition(definition);
         }
 
         [HttpPut()]
-        public ActionResult UpdateWebSiteCookieTypeDefinition([FromBody] WebSiteCookieTypeDefinitionUpdateRequestDto definition)
+        public bool UpdateWebSiteCookieTypeDefinition([FromBody] WebSiteCookieTypeDefinitionUpdateRequestDto definition)
         {
-            if (_engine.UpdateWebSiteCookieTypeDefinition(definition))
-                return Ok();
-            return BadRequest();
+            return _engine.UpdateWebSiteCookieTypeDefinition(definition);
         }
 
         [HttpDelete("{id}")]
-        public ActionResult DeleteWebSiteCookieTypeDefinition(int id)
+        public bool DeleteWebSiteCookieTypeDefinition(int id)
         {
-            if (_engine.DeleteWebSiteCookieTypeDefinition(id))
-                return Ok();
-            return BadRequest();
+            return _engine.DeleteWebSiteCookieTypeDefinition(id);
         }
     }
 }

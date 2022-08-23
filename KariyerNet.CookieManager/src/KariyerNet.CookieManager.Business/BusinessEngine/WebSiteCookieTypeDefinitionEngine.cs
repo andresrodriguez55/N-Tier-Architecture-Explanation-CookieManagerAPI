@@ -22,7 +22,7 @@ namespace KariyerNet.CookieManager.Business.BusinessEngine
         {
             var entity = _repository.GetById(id);
             if (entity == null)
-                return null;
+                throw new BusinessException("Id bulunamadı.");
 
             WebSiteCookieTypeDefinitionListItemDto response = entity.Adapt<WebSiteCookieTypeDefinitionListItemDto>();
             return response;
@@ -30,7 +30,7 @@ namespace KariyerNet.CookieManager.Business.BusinessEngine
 
         public List<WebSiteCookieTypeDefinitionListItemDto> GetWebSiteCookieTypeDefinitions()
         {
-            var data = _repository.ListAll();
+            var data = _repository.GetList();
             return data.Adapt<List<WebSiteCookieTypeDefinitionListItemDto>>();
         }
 
@@ -56,7 +56,7 @@ namespace KariyerNet.CookieManager.Business.BusinessEngine
         {
             var entity = _repository.GetById(id);
             if (entity == null)
-                return false;
+                throw new BusinessException("Id bulunamadı.");
 
             _repository.Delete(entity);
             return true;

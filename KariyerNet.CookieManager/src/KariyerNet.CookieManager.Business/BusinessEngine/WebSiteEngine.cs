@@ -11,11 +11,11 @@ using KariyerNet.CookieManager.Business.Validations.WebSites;
 using KariyerNet.CookieManager.Data.Contract.Repository;
 using Mapster;
 using System.Runtime.CompilerServices;
+using KariyerNet.CookieManager.Common.Exceptions;
 
 [assembly: InternalsVisibleTo("NUnitTests")]
 namespace KariyerNet.CookieManager.Business.BusinessEngine
 {
-    
     internal class WebSiteEngine : IWebSiteEngine
     {
         private readonly IWebSiteRepository _repository;
@@ -23,11 +23,11 @@ namespace KariyerNet.CookieManager.Business.BusinessEngine
         {
             _repository = repository;
         }
-        public WebSiteListItemDto? GetWebSiteById(int id) 
+        public WebSiteListItemDto GetWebSiteById(int id) 
         {
             var entity = _repository.GetById(id);
             if (entity == null)
-                return null;
+                throw new BusinessException("Id bulunamadı.");
 
             var response = entity.Adapt<WebSiteListItemDto>();
             return response;
@@ -35,7 +35,7 @@ namespace KariyerNet.CookieManager.Business.BusinessEngine
 
         public List<WebSiteListItemDto> GetWebSites()
         {
-            var data = _repository.ListAll();
+            var data = _repository.GetList();
             return data.Adapt<List<WebSiteListItemDto>>();
         }
 
@@ -61,7 +61,7 @@ namespace KariyerNet.CookieManager.Business.BusinessEngine
         {
             var entity = _repository.GetById(id);
             if (entity == null)
-                return false;
+                throw new BusinessException("Id bulunamadı.");
 
             _repository.Delete(entity);
             return true;

@@ -1,41 +1,60 @@
-﻿using CookiesSettings.Models;
+﻿using System.Linq;
+using CookiesSettings.Models;
 using KariyerNet.CookieManager.Business;
 using KariyerNet.CookieManager.Business.BusinessEngine;
 using KariyerNet.CookieManager.Business.Contract.BusinessEngine;
 using KariyerNet.CookieManager.Data.Contract.Repository;
+using KariyerNet.CookieManagerApi.Controllers;
+using Microsoft.AspNetCore.Mvc;
 using Moq;
 
 namespace NUnitTests
 {
-    public class TestWebsitesEngine
+    public class WebsitesControllerTest
     {
         private readonly Mock<IWebSiteRepository> _repository;
         private readonly IWebSiteEngine _engine;
+        private readonly WebSitesController _controller;
 
-        public TestWebsitesEngine() 
+        public WebsitesControllerTest() 
         {
             _repository = new Mock<IWebSiteRepository>();
             _engine = new WebSiteEngine(_repository.Object);
+            _controller = new WebSitesController(_engine);
         }
 
         [SetUp]
         public void Setup()
         {
             List<WebSite> data = getSampleData();
-            _repository.Setup(x => x.ListAll()).Returns(data);
+            //_repository.Setup(x => x.GetList()).Returns(data);
         }
 
         [Test]
-        public void GetAllWebsites()
+        public void GetAllWebsites_ReturnsResult()
         {
             //arrange
-
-            //act
-            var dataEngine = _engine.GetWebSites();
             var data = getSampleData();
 
+            //act
+            var result = _controller.GetWebSites();
+
             //assert
-            Assert.AreEqual(dataEngine.Count, data.Count);
+            
+        }
+
+        [Test]
+        public void GetAllWebsites_ReturnsAllItems()
+        {
+            //arrange
+            var data = getSampleData();
+            int count = data.Count;
+
+            //act
+            var result = _controller.GetWebSites();
+            
+            //assert
+            Assert.AreEqual(count, result.Count);
         }
 
         private List<WebSite> getSampleData()

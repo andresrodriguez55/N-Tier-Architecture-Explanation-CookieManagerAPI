@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace KariyerNet.CookieManager.Common.Data
 {
-    public interface IEntity<T> where T : struct
+    public interface IEntity
     {
-        public T Id { get; set; }
-        public DateTime CreatedDate { get; set; }
     }
 }

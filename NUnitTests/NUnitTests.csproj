@@ -23,6 +23,7 @@
     <ProjectReference Include="..\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Business.Contract\KariyerNet.CookieManager.Business.Contract.csproj" />
     <ProjectReference Include="..\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Business\KariyerNet.CookieManager.Business.csproj" />
     <ProjectReference Include="..\KariyerNet.CookieManager\src\KariyerNet.CookieManager.Data\KariyerNet.CookieManager.Data.csproj" />
+    <ProjectReference Include="..\KariyerNet.CookieManager\src\KariyerNet.CookieManagerApi\KariyerNet.CookieManagerApi.csproj" />
   </ItemGroup>
 
 </Project>

@@ -4,7 +4,7 @@ using KariyerNet.CookieManager.Common.Data;
 
 namespace CookiesSettings.Models
 {
-    public class WebSiteCookieTypeDefinition : BaseEntity<int>
+    public class WebSiteCookieTypeDefinition : BaseEntity<int>, IHasCreatedDateEntity
     {
         public WebSiteCookieTypeDefinition() 
         {
@@ -19,5 +19,7 @@ namespace CookiesSettings.Models
         public int WebSiteId { get; set; }
         public virtual WebSite WebSite { get; set; } = null!;
         public virtual List<Cookie> Cookies { get; set; }
+
+        public DateTime CreatedDate { get; set; }
     }
 }

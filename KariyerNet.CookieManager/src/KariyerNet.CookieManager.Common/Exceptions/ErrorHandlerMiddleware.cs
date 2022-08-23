@@ -24,11 +24,22 @@ namespace KariyerNet.CookieManager.Common.Exceptions
             {
                 await _next.Invoke(context);
             }
+            catch (BusinessException e)
+            {
+                var response = context.Response;
+                response.ContentType = "application/json";
+                response.StatusCode = (int)HttpStatusCode.BadRequest;
+
+                var result = JsonSerializer.Serialize(new { message = e?.Message });
+                await response.WriteAsync(result);
+            }
+
             catch (Exception error)
             {
                 var response = context.Response;
                 response.ContentType = "application/json";
-                response.StatusCode = (int)HttpStatusCode.InternalServerError;
+
+                response.StatusCode = (int)HttpStatusCode.InternalServerError; 
 
                 var result = JsonSerializer.Serialize(new { message = error?.Message });
                 await response.WriteAsync(result);

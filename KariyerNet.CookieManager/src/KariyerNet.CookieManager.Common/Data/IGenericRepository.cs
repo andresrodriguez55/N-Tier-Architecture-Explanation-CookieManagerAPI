@@ -7,10 +7,9 @@ using System.Threading.Tasks;
 
 namespace KariyerNet.CookieManager.Common.Data
 {
-    public interface IGenericRepository<T, PK> where T : class, IEntity<PK>, new() where PK : struct
+    public interface IGenericRepository<T, PK> where T : BaseEntity<PK>, new() where PK : struct
     {
-        T GetById(PK id);
-        List<T> ListAll();
+        T GetById(PK id); 
         void Create(T entity);
         void Update(T entity);
         void Delete(T entity);

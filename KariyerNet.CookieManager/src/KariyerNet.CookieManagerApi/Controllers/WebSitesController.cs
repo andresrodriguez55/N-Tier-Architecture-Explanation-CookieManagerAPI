@@ -18,31 +18,25 @@ namespace KariyerNet.CookieManagerApi.Controllers
         [HttpGet()]
         public List<WebSiteListItemDto> GetWebSites()
         {
-            return _engine.GetWebSites(); ;
+            return _engine.GetWebSites();
         }
 
         [HttpPost()]
-        public ActionResult CreateWebSite([FromBody] WebSiteCreateRequestDto website)
+        public bool CreateWebSite([FromBody] WebSiteCreateRequestDto website)
         {
-            if (_engine.CreateWebSite(website))
-                return Ok();
-            return BadRequest();
+            return _engine.CreateWebSite(website);
         }
 
         [HttpPut()]
-        public ActionResult UpdateWebSite([FromBody] WebSiteUpdateRequestDto website)
+        public bool UpdateWebSite([FromBody] WebSiteUpdateRequestDto website)
         {
-            if (_engine.UpdateWebSite(website))
-                return Ok();
-            return BadRequest();
+            return _engine.UpdateWebSite(website);
         }
 
         [HttpDelete("{id}")]
-        public ActionResult DeleteWebSite(int id)
+        public bool DeleteWebSite(int id)
         {
-            if (_engine.DeleteWebSite(id))
-                return Ok();
-            return BadRequest();
+            return _engine.DeleteWebSite(id);
         }
     }
 }

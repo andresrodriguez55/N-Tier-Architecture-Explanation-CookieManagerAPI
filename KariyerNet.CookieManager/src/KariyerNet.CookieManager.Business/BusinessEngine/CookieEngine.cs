@@ -52,7 +52,6 @@ namespace KariyerNet.CookieManager.Business.BusinessEngine
                 WebSiteCookieTypeDefinitionId = d.WebSiteCookieTypeDefinitionId,
                 WebSiteCookieTypeName = d.WebSiteCookieTypeDefinition.Title
             }).ToList();
-            //return data.Adapt<List<CookieListItemDto>>();
         }
     }
 }

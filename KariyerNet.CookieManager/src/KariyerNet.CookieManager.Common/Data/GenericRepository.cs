@@ -5,10 +5,11 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Mapster;
 
 namespace KariyerNet.CookieManager.Common.Data
 {
-    public class GenericRepository<T, PK> : IGenericRepository<T, PK> where T : class, IEntity<PK>, new() where PK : struct
+    public class GenericRepository<T, PK> : IGenericRepository<T, PK> where T : BaseEntity<PK>, new() where PK : struct
     {
         private readonly DbContext _context;
         protected DbSet<T> DbSet { get; }
@@ -24,21 +25,15 @@ namespace KariyerNet.CookieManager.Common.Data
             return DbSet.FirstOrDefault(e => e.Id.Equals(id));
         }
 
-        public List<T> ListAll()
-        {
-            return DbSet.ToList();
-        }
 
         public void Create(T entity) 
         {
-            entity.CreatedDate = DateTime.UtcNow;
             DbSet.Add(entity);
             _context.SaveChanges();
         }
 
         public void Update(T entity)
         {
-            entity.CreatedDate = DateTime.UtcNow;
             DbSet.Update(entity);
             _context.SaveChanges();
         }
@@ -61,12 +56,9 @@ namespace KariyerNet.CookieManager.Common.Data
 
         public TResult GetFirstOrDefault<TResult>(Expression<Func<T, bool>> filter) where TResult : class, new()
         {
-            throw new NotImplementedException();
-        }
+            IQueryable<T> query = DbSet;
 
-        public TResult GetFirstOrDefault<TResult>(Expression<Func<T, TResult>> select, Expression<Func<T, bool>> filter) where TResult : class, new()
-        {
-            throw new NotImplementedException();
+            return query.Where(filter).ProjectToType<TResult>().FirstOrDefault();
         }
 
         public List<T> GetList(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, int? topRecords = null, params Expression<Func<T, object>>[] includes)
@@ -88,12 +80,28 @@ namespace KariyerNet.CookieManager.Common.Data
 
         public List<TResult> GetList<TResult>(Expression<Func<T, bool>> filter = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, int? topRecords = null, params Expression<Func<T, object>>[] includes) where TResult : class, new()
         {
-            throw new NotImplementedException();
+            IQueryable<T> query = DbSet;
+
+            if (filter != null)
+                query = query.Where(filter);
+            foreach (Expression<Func<T, object>> include in includes)
+                query = query.Include<T, object>(include);
+            if (orderBy != null)
+                query = orderBy(query);
+            if (topRecords != null)
+                query = query.Take((int)topRecords);
+
+            return query.ProjectToType<TResult>().ToList();
         }
 
         public int RecordCount(Expression<Func<T, bool>> filter = null)
         {
             return (filter == null) ? DbSet.Count() : DbSet.Count(filter);
-        }        
+        }
+
+        public TResult GetFirstOrDefault<TResult>(Expression<Func<T, TResult>> select, Expression<Func<T, bool>> filter) where TResult : class, new()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
