@@ -25,7 +25,6 @@ namespace KariyerNet.CookieManager.Common.Data
             return DbSet.FirstOrDefault(e => e.Id.Equals(id));
         }
 
-
         public void Create(T entity) 
         {
             DbSet.Add(entity);

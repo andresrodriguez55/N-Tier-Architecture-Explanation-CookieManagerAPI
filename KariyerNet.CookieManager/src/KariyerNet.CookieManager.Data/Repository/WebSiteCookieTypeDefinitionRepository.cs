@@ -13,8 +13,6 @@ namespace KariyerNet.CookieManager.Data.Repository
     internal class WebSiteCookieTypeDefinitionRepository : 
         GenericRepository<WebSiteCookieTypeDefinition, int>, IWebSiteCookieTypeDefinitionRepository
     {
-        private readonly CookieSettingsContext _context;
-
         public WebSiteCookieTypeDefinitionRepository(CookieSettingsContext context) : base(context)
         {
 

@@ -12,6 +12,7 @@
           "KariyerNet.CookieManager.Business.Contract": "1.0.0",
           "KariyerNet.CookieManager.Data": "1.0.0",
           "KariyerNet.CookieManagerApi": "1.0.0",
+          "Mapster": "7.3.0",
           "Microsoft.EntityFrameworkCore": "6.0.8",
           "Microsoft.EntityFrameworkCore.InMemory": "6.0.8",
           "Microsoft.NET.Test.Sdk": "17.1.0",
