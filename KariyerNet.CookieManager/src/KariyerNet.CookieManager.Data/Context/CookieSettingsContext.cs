@@ -44,7 +44,8 @@ namespace KariyerNet.CookieManager.Data.Context
                     || e.State == EntityState.Modified)).ToList();
             SetDefaultDateTimeValues(entries);
             var count = base.SaveChanges();
-            foreach (var entry in entries) entry.State = EntityState.Detached;
+            foreach (var entry in entries) 
+                entry.State = EntityState.Detached;
             return count;
 
 
@@ -55,11 +56,13 @@ namespace KariyerNet.CookieManager.Data.Context
             if (entries.Count <= 0) return;
             foreach (var entityEntry in entries)
             {
-                if (entityEntry.State == EntityState.Added && entityEntry.Entity is IHasCreatedDateEntity)
+                if ((entityEntry.State == EntityState.Added || entityEntry.State == EntityState.Modified) && 
+                    entityEntry.Entity is IHasCreatedDateEntity)
                 {
                     var createdDate = (DateTime)entityEntry.Entity.GetType().GetProperties()
                         .FirstOrDefault(x => x.Name == nameof(IHasCreatedDateEntity.CreatedDate)).GetValue(entityEntry.Entity);
-                    if (createdDate == default) ((IHasCreatedDateEntity)entityEntry.Entity).CreatedDate = DateTime.Now;
+                    if (createdDate == default) 
+                        ((IHasCreatedDateEntity)entityEntry.Entity).CreatedDate = DateTime.Now;
 
                 }
             }
