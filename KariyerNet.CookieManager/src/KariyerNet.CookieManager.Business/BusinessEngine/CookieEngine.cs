@@ -25,6 +25,20 @@ namespace KariyerNet.CookieManager.Business.BusinessEngine
             _webSiteCookieTypeDefinitionEngine = webSiteCookieTypeDefinitionEngine;
         }
 
+        public List<CookieListItemDto> GetCookies()
+        {
+            var data = _repository.GetList(null, null, null, c => c.WebSiteCookieTypeDefinition);
+            return data.Select(d => new CookieListItemDto
+            {
+                CreatedDate = d.CreatedDate,
+                Id = d.Id,
+                SessionId = d.SessionId,
+                Status = d.Status,
+                WebSiteCookieTypeDefinitionId = d.WebSiteCookieTypeDefinitionId,
+                WebSiteCookieTypeName = d.WebSiteCookieTypeDefinition.Title
+            }).ToList();
+        }
+
         public bool CreateCookie(CookieCreateRequestDto request) 
         {
             ValidationTool.Validate<CookieCreateValidation>(request);
@@ -38,20 +52,6 @@ namespace KariyerNet.CookieManager.Business.BusinessEngine
             var entity = request.Adapt<Cookie>(); 
             _repository.Create(entity);
             return true;
-        }
-
-        public List<CookieListItemDto> GetCookies()
-        {
-            var data = _repository.GetList(null, null, null, c => c.WebSiteCookieTypeDefinition);
-            return data.Select(d => new CookieListItemDto
-            {
-                CreatedDate = d.CreatedDate,
-                Id = d.Id,
-                SessionId = d.SessionId,
-                Status = d.Status,
-                WebSiteCookieTypeDefinitionId = d.WebSiteCookieTypeDefinitionId,
-                WebSiteCookieTypeName = d.WebSiteCookieTypeDefinition.Title
-            }).ToList();
         }
     }
 }

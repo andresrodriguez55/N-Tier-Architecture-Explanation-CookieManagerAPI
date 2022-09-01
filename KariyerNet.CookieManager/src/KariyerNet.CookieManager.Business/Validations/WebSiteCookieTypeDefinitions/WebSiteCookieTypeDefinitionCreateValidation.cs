@@ -18,8 +18,8 @@ namespace KariyerNet.CookieManager.Business.Validations.WebSiteCookieTypeDefinit
             RuleFor(x => x.Title).Length(3, 40);
             RuleFor(x => x.Description).NotEmpty();
             RuleFor(x => x.Description).Length(6, 150);
-            RuleFor(x => x.IsRequired).NotEmpty();
-            RuleFor(x => x.IsActive).NotEmpty();
+            RuleFor(x => x.IsRequired);
+            RuleFor(x => x.IsActive);
             RuleFor(x => x.WebSiteId).NotEmpty();
         }
     }

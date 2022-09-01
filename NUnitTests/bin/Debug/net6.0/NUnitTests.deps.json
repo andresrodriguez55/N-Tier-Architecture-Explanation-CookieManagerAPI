@@ -472,6 +472,7 @@
           }
         }
       },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.15.1": {},
       "Moq/4.18.2": {
         "dependencies": {
           "Castle.Core": "5.1.0"
@@ -976,6 +977,7 @@
         "dependencies": {
           "KariyerNet.CookieManager.Business": "1.0.0",
           "KariyerNet.CookieManager.Data": "1.0.0",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.15.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.6",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
@@ -1200,6 +1202,13 @@
       "sha512": "sha512-JS0JDLniDhIzkSPLHz7N/x1CG8ywJOtwInFDYA3KQvbz+ojGoT5MT2YDVReL1b86zmNRV8339vsTSm/zh0RcMg==",
       "path": "microsoft.testplatform.testhost/17.1.0",
       "hashPath": "microsoft.testplatform.testhost.17.1.0.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.15.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dcsF7rjxvMnqtfckpzWYvBsZsJD51yQVHSSgd2EN5/CJ/zQigJrfo313lvAwf0VL9ZOHLnJthuboadjnBAU7Ng==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.15.1",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512"
     },
     "Moq/4.18.2": {
       "type": "package",

@@ -1,0 +1,37 @@
+version: '3.4'
+ 
+networks:
+  kariyernet-cookiemanager:
+    driver: bridge 
+ 
+services:
+  dotnet-cookiemanager:
+    image: dotnet-cookiemanager:latest
+    depends_on:
+      - "postgres_cookiemanager"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"     
+    environment:
+      DB_CONNECTION_STRING: "host=postgres_cookiemanager;port=5432;database=kariyerNetCookieManager;username=kariyernet;password=kariyernet"
+    networks:
+      - kariyernet-cookiemanager  
+  
+  postgres_cookiemanager:
+    image: postgres:latest
+    ports:
+      - "5432"
+    restart: always
+    volumes:
+      - db_volume:/var/lib/postgresql/data
+      - ./DbScripts/postgresBackup.sql 
+    environment:
+      POSTGRES_USER: "kariyernet"
+      POSTGRES_PASSWORD: "kariyernet"
+      POSTGRES_DB: "kariyerNetCookieManager"
+    networks:
+      - kariyernet-cookiemanager
+volumes:
+  db_volume:

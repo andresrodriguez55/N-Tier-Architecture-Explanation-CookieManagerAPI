@@ -11,7 +11,7 @@ using KariyerNet.CookieManager.Data.Contract.Repository;
 using Mapster;
 using Moq;
 
-namespace NUnitTests
+namespace NUnitTests.Engines
 {
     public class WebSiteCookieTypeDefinitionEngineTest
     {
@@ -51,7 +51,7 @@ namespace NUnitTests
             //arrange
             List<WebSiteCookieTypeDefinition> data = getSampleData();
             WebSiteCookieTypeDefinition webSiteCookieTypeDefinition = data[0];
-            WebSiteCookieTypeDefinitionCreateRequestDto request = 
+            WebSiteCookieTypeDefinitionCreateRequestDto request =
                 webSiteCookieTypeDefinition.Adapt<WebSiteCookieTypeDefinitionCreateRequestDto>();
             _repository.Setup(x => x.Create(It.IsAny<WebSiteCookieTypeDefinition>()));
 
@@ -68,7 +68,7 @@ namespace NUnitTests
             //arrange
             List<WebSiteCookieTypeDefinition> data = getSampleData();
             WebSiteCookieTypeDefinition webSiteCookieTypeDefinition = data[0];
-            WebSiteCookieTypeDefinitionCreateRequestDto request = 
+            WebSiteCookieTypeDefinitionCreateRequestDto request =
                 webSiteCookieTypeDefinition.Adapt<WebSiteCookieTypeDefinitionCreateRequestDto>();
             request.Title = "aa";
 
@@ -96,7 +96,7 @@ namespace NUnitTests
             //assert
             Assert.AreEqual(true, result);
         }
-        
+
         [Test]
         public void UpdateWebsiteCookieTypeDefinition_InvalidWebsiteCookieTypeDefinitionTitleLength_GetsException()
         {
@@ -172,7 +172,7 @@ namespace NUnitTests
                     Title = "...",
                     Description = "........",
                     IsRequired = false,
-                    IsActive = true,  
+                    IsActive = true,
                     WebSiteId = 3,
                     WebSite = new WebSite()
                     {

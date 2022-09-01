@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+n/CBuWOhjHz76fVCz391QNOeq9GuV++GeQz3TG6rTmww1fp7BHVMHbK9KSZmuNieS+SGCqHIb1q5wn5oCfwVA==",
+  "dgSpecHash": "D00gEIelO+i/32bYaR3Ti+0jw+AMdF3ZyV+l+9u12Bg9SmK5Mecwe5mIBc54tXySuC8J2iVApY0Ri96SE/+VqA==",
   "success": true,
   "projectFilePath": "C:\\Users\\andres.calderon\\Desktop\\StajProjesi\\DotNetCore\\Demo\\NUnitTests\\NUnitTests.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,7 @@
     "C:\\Users\\andres.calderon\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\andres.calderon\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.1.0\\microsoft.testplatform.objectmodel.17.1.0.nupkg.sha512",
     "C:\\Users\\andres.calderon\\.nuget\\packages\\microsoft.testplatform.testhost\\17.1.0\\microsoft.testplatform.testhost.17.1.0.nupkg.sha512",
+    "C:\\Users\\andres.calderon\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
     "C:\\Users\\andres.calderon\\.nuget\\packages\\moq\\4.18.2\\moq.4.18.2.nupkg.sha512",
     "C:\\Users\\andres.calderon\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
     "C:\\Users\\andres.calderon\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",

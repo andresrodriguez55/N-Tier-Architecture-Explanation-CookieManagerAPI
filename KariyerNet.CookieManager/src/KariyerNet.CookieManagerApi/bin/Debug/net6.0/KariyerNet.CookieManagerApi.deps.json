@@ -12,6 +12,7 @@
           "KariyerNet.CookieManager.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.8",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.8",
+          "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.15.1",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.6",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
@@ -206,6 +207,7 @@
           }
         }
       },
+      "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.15.1": {},
       "Npgsql/6.0.6": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -734,6 +736,13 @@
       "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "path": "microsoft.openapi/1.2.3",
       "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
+    },
+    "Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.15.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dcsF7rjxvMnqtfckpzWYvBsZsJD51yQVHSSgd2EN5/CJ/zQigJrfo313lvAwf0VL9ZOHLnJthuboadjnBAU7Ng==",
+      "path": "microsoft.visualstudio.azure.containers.tools.targets/1.15.1",
+      "hashPath": "microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512"
     },
     "Npgsql/6.0.6": {
       "type": "package",

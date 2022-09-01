@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TvvRhDyioc6R564RoIZSLvdZG3WOoDLqEYb6Eu7NMAzidVzyQ5AgoXmt790XximDgcPsW4sK+t+CtuSowoGY2g==",
+  "dgSpecHash": "4BD5qB6VsaH4hfbvLrhkQwTemvwkEcmPaR1z5rv00kekZKloiknRlI9tCyYnzgHNsenMfWYir9JiBcWUDSLKMg==",
   "success": true,
   "projectFilePath": "C:\\Users\\andres.calderon\\Desktop\\StajProjesi\\DotNetCore\\Demo\\KariyerNet.CookieManager\\src\\KariyerNet.CookieManagerApi\\KariyerNet.CookieManagerApi.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "C:\\Users\\andres.calderon\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\andres.calderon\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\andres.calderon\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\andres.calderon\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
     "C:\\Users\\andres.calderon\\.nuget\\packages\\npgsql\\6.0.6\\npgsql.6.0.6.nupkg.sha512",
     "C:\\Users\\andres.calderon\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.6\\npgsql.entityframeworkcore.postgresql.6.0.6.nupkg.sha512",
     "C:\\Users\\andres.calderon\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

@@ -10,14 +10,14 @@ using Mapster;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 
-namespace NUnitTests
+namespace NUnitTests.Engines
 {
     public class WebsiteEngineTest
     {
         private readonly Mock<IWebSiteRepository> _repository;
         private readonly IWebSiteEngine _engine;
 
-        public WebsiteEngineTest() 
+        public WebsiteEngineTest()
         {
             _repository = new Mock<IWebSiteRepository>();
             _engine = new WebSiteEngine(_repository.Object);
@@ -132,7 +132,7 @@ namespace NUnitTests
             //arrange
             List<WebSite> data = getSampleData();
             WebSite webSite = data[0];
-            _repository.Setup(x => x.GetById(It.IsAny<int>())).Returns((WebSite) null);
+            _repository.Setup(x => x.GetById(It.IsAny<int>())).Returns((WebSite)null);
             _repository.Setup(x => x.Delete(It.IsAny<WebSite>()));
 
             //act
@@ -148,7 +148,7 @@ namespace NUnitTests
                 new WebSite()
                 {
                     Id = 1,
-                    Name = "kariyer",                
+                    Name = "kariyer",
                 },
                 new WebSite()
                 {

@@ -13,7 +13,7 @@ namespace KariyerNet.CookieManager.Business.Validations.Cookies
         public CookieCreateValidation()
         {
             RuleFor(x => x.SessionId).NotEmpty();
-            RuleFor(x => x.Status).NotEmpty();
+            RuleFor(x => x.Status);
             RuleFor(x => x.WebSiteCookieTypeDefinitionId).NotEmpty();
         }
     }
