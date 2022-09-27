@@ -273,7 +273,7 @@ namespace KariyerNet.CookieManager.Business.BusinessEngine
             return true;
         }
 
-        public bool DeleteWebSite(int id) //farklı metoda bağımlılık var
+        public bool DeleteWebSite(int id) 
         {
             var entity = _repository.GetById(id);
             if (entity == null)
