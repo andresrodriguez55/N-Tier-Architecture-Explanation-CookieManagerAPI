@@ -1,4 +1,4 @@
-<br>WARNING: This is an excerpt from a post from my blog, the images may not load properly here, you can see the same content correctly by clicking <a href="https://andresrodriguez55.github.io/#/post/71/Internship%20Project%20-%20Cookie%20Manager%20API%20Implementing%20N-Tier%20Architecture%20with%20.NET%20Core,%20CI-CD%20Process%20Control%20&%20Docker%20Export"> here. </a> </br>
+<br>WARNING: This is an excerpt from a post from my blog, the images may not load properly here, you can see the same content correctly by clicking <a href="https://andresrodriguez55.github.io/#/post/72/Internship%20Project%20-%20Cookie%20Manager%20API%20Implementing%20N-Tier%20Architecture%20with%20.NET%20Core,%20CI-CD%20Process%20Control%20&%20Docker%20Export"> here. </a> </br>
 
 # 1. Database
 ## 1.1. Design
