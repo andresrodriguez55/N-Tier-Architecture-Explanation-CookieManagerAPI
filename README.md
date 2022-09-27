@@ -424,7 +424,7 @@ namespace KariyerNet.CookieManager.Common.Exceptions
             _next = next;
         }
 
-        public async Task Invoke(HttpContext context) //asenkron olmalı, birden fazla istek bulunabilir
+        public async Task Invoke(HttpContext context) 
         {
             try
             {
